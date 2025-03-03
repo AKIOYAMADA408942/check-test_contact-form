@@ -1,0 +1,41 @@
+body{
+    color:#8B7969;
+}
+
+a{
+    text-decoration: none;
+}
+.header {
+    background: #FFF;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    height: 100px;
+}
+
+
+.header__logo {
+    font-size: 40px;
+}
+
+.header-nav {
+    position: absolute;
+    right: 20%;
+}
+
+
+.header-nav__button {
+    display: block;
+    text-align: center;
+    width: 100px;
+    color: #D9C6B5;
+    font-size: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #D9C6B5;
+    text-decoration: none;
+}

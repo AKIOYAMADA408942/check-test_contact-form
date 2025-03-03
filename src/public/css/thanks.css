@@ -1,0 +1,40 @@
+body {
+    color: #8B7969;
+}
+
+.header {
+    background: #FFF;
+}
+.thanks__inner{
+    position: absolute;
+}
+
+.thanks__inner > h1{
+    font-size: 280px;
+    font-weight: 400;
+    opacity: 0.05;
+}
+.thanks__heading{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.home__button{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140px;
+    height: 46px;
+}
+
+.home__button-submit{
+    width: 140px;
+    height: 46px;
+    padding: 10px 40px;
+    background-color: #82756A;
+    color: white;
+    text-decoration: none;
+}

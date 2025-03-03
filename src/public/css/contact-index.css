@@ -1,0 +1,212 @@
+.contact-form__content {
+    margin: 0 auto 100px auto;
+    border-top: 1px solid #e0dfde;
+}
+
+.contact-form__heading {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+.form__group-title{
+    text-align: left;
+    width: 300px;
+    font-size: 20px;
+}
+.form__label--required {
+    color: #ff9494;
+}
+.form__group-content{
+    width: 600px;
+}
+/* 名前入力欄 */
+.form__input--name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input--name >input{
+    width: 48%;
+    height: 38px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #8B7969;
+    background-color: #F4F4F4;
+    border: none;
+}
+
+/* 性別入力欄 */
+.form__radio--gender{
+    display: flex;
+    justify-content: left;
+    accent-color: #8B7969;
+}
+
+.form__radio--gender >input {
+    margin: 0px 10px;
+}
+
+/* メールアドレス入力欄 */
+.form__input--email{
+    text-align: left;
+    width: 100%;
+}
+.form__input--email>input{
+    width: 100%;
+    height: 38px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #beb1a6;
+    background-color: #F4F4F4;
+    border: none;
+}
+
+/* 電話番号入力欄 */
+.form__input--tel {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.form__input--tel >input{
+    text-align: center;
+    width: 30%;
+    height: 38px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #beb1a6;
+    background-color: #F4F4F4;
+    border: none;
+}
+
+.form__input--tel-hyphen{
+    width: 5%;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* 住所入力欄 */
+.form__input--address{
+    text-align: left;
+    width: 100%;
+}
+
+.form__input--address >input{
+    width: 100%;
+    height: 38px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #beb1a6;
+    background-color: #F4F4F4;
+    border: none;
+}
+
+/* 建物入力欄 */
+.form__input--building{
+    text-align: left;
+    width: 100%;
+}
+
+.form__input--building >input{
+    width: 100%;
+    height: 38px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #beb1a6;
+    background-color: #F4F4F4;
+    border: none;
+}
+
+/* お問い合わせの種類選択欄*/
+.form__select-category{
+    text-align: left;
+}
+
+.form__select-category >select{
+    width: 50%;
+    height: 38px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #beb1a6;
+    background-color: #F4F4F4;
+    border: none;
+}
+
+.form__select-category>select>option{
+    padding: 0px;
+}
+
+/* お問い合わせ内容記入欄*/
+.form__input--textarea-content{
+    text-align: left;
+    width: 100%;
+}
+
+.form__input--textarea-content >textarea {
+    width: 100%;
+    height: 130px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #beb1a6;
+    background-color: #F4F4F4;
+    border: none;
+}
+
+.form-group__error{
+    display: flex;
+    width: 100%;
+}
+
+/* バリデーションメッセージ(名前欄のみ 入力欄1行2個) */
+.form__error-name {
+    width: 50%;
+    height: 20px;
+    color: #ff0000;
+    text-align: center;
+}
+
+/* バリデーションメッセージ(電話番号欄のみ 入力欄1行3個) */
+.form__error-tel {
+    width: 33%;
+    height: 20px;
+    font-size: 10px;
+    color: #ff0000;
+    text-align: center;
+}
+
+/* バリデーションメッセージ(上記以外 入力欄1行1個) */
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: center;
+}
+
+/* 確認画面ボタン*/
+.form__button {
+    margin-top: 30px;
+}
+
+
+
+.form__button-submit {
+    padding: 0px 40px 0px 40px;
+    font-size: 20px;
+    width: 160px;
+    height: 46px;
+    border: none;
+    background: #82756A;
+    color: #fff;
+    cursor: pointer;
+}
