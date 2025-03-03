@@ -16,14 +16,16 @@ Dockerビルド
 7 php artisan db:seed  
 8 php artisan key:generate  
 
-## 使用技術
+## 使用技術  
 ・PHP7.4  
 ・Laravel8.8  
 ・Laravel Fortify  
 ・Laravel Livewire  
 ・MySQL8.0  
+  
+## ER図  
 
-
-##URL
+![ER図](ER.png)
+## URL  
 ・開発環境 : http://localhost/  
 ・phpMyadmin : http://localhost:8080/
